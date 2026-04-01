@@ -5,6 +5,13 @@ I focused on making the platform feel organized, responsive, and data-rich. I im
 
 To ensure everything stays stable, I set up a suite of E2E tests with **Playwright**. I also spent time populating the database with a cat market theme to test how the UI and API handle real-world scale.
 
+## Challenges I faced
+
+One of the trickiest parts was getting the dashboard to sync odds and bets in real-time without refreshing the page or affecting performance. Setting up the E2E tests with Playwright also required a lot of focus to ensure they stayed stable.
+
+I also put a lot of effort into project housekeeping, making sure my local database and secrets stayed private while providing a clear template for others to spin up the project easily. Lastly, getting the Docker setup to auto-populate the database correctly on the first run was a real lesson in attention to detail and maintaining environment consistency.
+
+
 ## Assets & demos
 Here is a detailed breakdown of the work included in this submission:
 
